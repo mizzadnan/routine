@@ -36,6 +36,7 @@ header {
     align-items: center;
     height: 89vh;
     overflow: auto;
+    width: 100vw;
 }
 
 #time {
@@ -54,7 +55,14 @@ td {
     padding: 20px 30px;
     text-align: center;
     background-color: rgba(87, 112, 142, 0.1);
-    color:#c5c6c7
+    color:#c5c6c7;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+}
+
+td:hover {
+    border: 1px solid #05e1d2;
+    box-shadow: 0px 0px 2px #05e1d2;
 }
 
 td a {
