@@ -1,0 +1,149 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background-color: #0b0c10;
+    color: #66fcf1;
+    font-size: 15px;
+    height: 11vh;
+}
+
+#header-title {
+    margin: 0px auto;
+    text-align: center;
+    text-shadow: 1px 1px 3px #05e1d2;
+}
+
+#content {
+    background-color: #1f2833;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 89vh;
+    overflow: auto;
+}
+
+#time {
+    margin: 35px 0px;
+    color: #d8d8d8;
+    font-size: 20px;
+}
+
+th {
+    padding: 20px 30px;
+    background-color: #05e1d2;
+    color: #0b0c10;
+}
+
+td {
+    padding: 20px 30px;
+    text-align: center;
+    background-color: rgba(87, 112, 142, 0.1);
+    color:#c5c6c7
+}
+
+td a {
+    color: #c5c6c7;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 860px) {
+    td, th {
+        padding: 20px 25px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    td, th {
+        padding: 15px 15px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    td, th {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+} 
+
+@media screen and (max-width: 600px) {
+    td, th {
+        padding: 15px 10px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    td, th {
+        padding: 15px 8px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    td, th {
+        padding: 15px 8px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    td, th {
+        padding: 15px 5px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    td, th {
+        padding: 14px 3px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    td, th {
+        padding: 13px 1px;
+    }
+}
+
+@media screen and (max-height: 755px) {
+    header {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-height: 650px){
+    header {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-height: 580px) {
+    td, th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+@media screen and (max-height: 550px) {
+    header {
+        font-size: 10px;
+    }
+}
