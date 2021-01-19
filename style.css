@@ -102,7 +102,7 @@ td a:hover {
 @media screen and (max-width: 540px) {
     td, th {
         padding: 15px 8px;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     #time {
@@ -117,10 +117,9 @@ td a:hover {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
     td, th {
         padding: 15px 5px;
-        font-size: 11px;
     }
 
     #time {
@@ -135,9 +134,27 @@ td a:hover {
     }
 }
 
+@media screen and (max-width: 430px) {
+    td, th {
+        padding: 14px 2px;
+    }
+
+    header {
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 360px) {
     td, th {
         padding: 13px 1px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    td, th {
+        padding: 13px 0px;
+        font-size: 9px;
     }
 }
 
