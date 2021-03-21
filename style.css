@@ -55,13 +55,12 @@ td {
     text-align: center;
     background-color: rgba(87, 112, 142, 0.1);
     color:#c5c6c7;
-    transition: all 0.3s;
-    border: 1px solid transparent;
+    transition: all 0.2s;
+    outline-offset: -2px;
 }
 
 td:hover {
     outline: 1px solid #05e1d2;
-    border: 1px solid #05e1d2;
     box-shadow: 0px 0px 3px #05e1d2;
 }
 
