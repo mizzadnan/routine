@@ -6,11 +6,9 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 let today = new Date();
 
 let day = days[today.getDay()];
-let month = months[today.getMonth()]
-let date = String(today.getDate())
-let year = String(today.getFullYear())
+let month = months[today.getMonth()];
+let date = String(today.getDate());
+let year = String(today.getFullYear());
 
-time.textContent = `${day}, ${month} ${date}, ${year}`
-
-
+time.textContent = `${day}, ${month} ${date}, ${year}`;
 

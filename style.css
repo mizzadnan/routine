@@ -8,6 +8,7 @@
 body {
     font-family: Poppins;
     height: 100vh;
+    background-color: #1f2833;
 }
 
 a {
@@ -19,7 +20,6 @@ header {
     background-color: #0b0c10;
     color: #66fcf1;
     font-size: 15px;
-    height: 11vh;
 }
 
 #header-title {
@@ -34,8 +34,6 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 89vh;
-    overflow: auto;
     width: 100vw;
 }
 
@@ -49,6 +47,7 @@ th {
     padding: 20px 30px;
     background-color: #05e1d2;
     color: #0b0c10;
+    border: 1px solid #1f2833;
 }
 
 td {
@@ -56,13 +55,14 @@ td {
     text-align: center;
     background-color: rgba(87, 112, 142, 0.1);
     color:#c5c6c7;
-    transition: all 0.5s;
+    transition: all 0.3s;
     border: 1px solid transparent;
 }
 
 td:hover {
+    outline: 1px solid #05e1d2;
     border: 1px solid #05e1d2;
-    box-shadow: 0px 0px 2px #05e1d2;
+    box-shadow: 0px 0px 3px #05e1d2;
 }
 
 td a {
@@ -71,6 +71,10 @@ td a {
 
 td a:hover {
     text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
 }
 
 @media screen and (max-width: 860px) {
@@ -158,6 +162,13 @@ td a:hover {
     }
 }
 
+@media screen and (max-height: 800px) {
+    td, th {
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+}
+
 @media screen and (max-height: 755px) {
     header {
         font-size: 13px;
@@ -167,9 +178,14 @@ td a:hover {
         margin: 30px 0px;
         font-size: 18px;
     }
+
+    td, th {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 
-@media screen and (max-height: 650px){
+@media screen and (max-height: 710px){
     header {
         font-size: 11px;
     }
@@ -178,7 +194,20 @@ td a:hover {
         margin: 25px 0px;
         font-size: 15px;
     }
+    
+    td, th {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
 }
+
+@media screen and (max-height: 680px) {
+    td, th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
 
 @media screen and (max-height: 580px) {
     td, th {
@@ -194,4 +223,9 @@ td a:hover {
     #time {
         margin: 20px 0px;
     }
+}
+
+.current {
+    border: 1px solid #05e1d2;
+    box-shadow: 0px 0px 2px #05e1d2;
 }
